@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Heroes()
+comment1.params=speedMultiplier
+comment1.target=void\ move(int)
+comment2.params=
+comment2.target=boolean\ useF()
+comment2.text=\n\ \ \ \ public\ boolean\ minionCollision()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ Actor\ minion;\n\ \ \ \ \ \ \ \ minion\ \=\ getOneObjectAtOffset(0,0,Minion.class);\n\ \ \ \ \ \ \ \ if\ (minion\ \!\=\ \n\ \ \ \ }\n
+comment3.params=
+comment3.target=boolean\ useSpacebar()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

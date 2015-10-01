@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ turn()
+comment0.text=Turn\ 90\ degrees\ to\ the\ right\ (clockwise).
+comment1.params=angle
+comment1.target=void\ turn(int)
+comment1.text=Turn\ 'angle'\ degrees\ towards\ the\ right\ (clockwise).
+comment2.params=
+comment2.target=void\ move()
+comment2.text=Move\ a\ bit\ forward\ in\ the\ current\ direction.
+comment3.params=distance
+comment3.target=void\ move(double)
+comment3.text=Move\ a\ specified\ distance\ forward\ in\ the\ current\ direction.
+comment4.params=
+comment4.target=boolean\ atWorldEdge()
+comment4.text=Test\ if\ we\ are\ close\ to\ one\ of\ the\ edges\ of\ the\ world.\ Return\ true\ is\ we\ are.
+numComments=5
