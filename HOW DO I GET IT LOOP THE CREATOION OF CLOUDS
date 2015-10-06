@@ -1,0 +1,183 @@
+import greenfoot.*;
+
+/**
+ * The world of Tristam
+ * @author Sean Wallace
+ * @version (a version number or a date)
+ */
+public class Kyobashi extends World
+{
+    //Constructor for objects of class Kyobashi
+    public Kyobashi()
+    {    
+        super(750, 750, 1); 
+        createsmoke();
+        createsmoke1();
+        createsmoke2();
+        createsmoke3();
+        createsmoke4();
+        createsmoke5();
+        createclouds();
+
+        prepare();
+    }
+
+    public void createsmoke()
+    {
+        Smoke smoke;
+        smoke = new Smoke();
+        addObject(smoke, -400, (50));
+    }
+    
+    public void createsmoke1()
+    {
+        Smoke smoke;
+        smoke = new Smoke();
+        addObject(smoke, -400, (150));
+    }
+    
+    public void createsmoke2()
+    {
+        Smoke smoke;
+        smoke = new Smoke();
+        addObject(smoke, -400, (230));
+    }
+    
+    public void createsmoke3()
+    {
+        Smoke smoke;
+        smoke = new Smoke();
+        addObject(smoke, -400, (500));
+    }
+    
+        public void createsmoke4()
+    {
+        Smoke smoke;
+        smoke = new Smoke();
+        addObject(smoke, -400, (600));
+    }
+    
+        public void createsmoke5()
+    {
+        Smoke smoke;
+        smoke = new Smoke();
+        addObject(smoke, -400, (700));
+    }
+    
+    public void createWorld()
+    {
+        //Creates the Ninja Hero
+        Ninja n1;
+        n1 = new Ninja();
+        addObject(n1, 100,400);
+
+    }
+
+    public void createclouds()
+    {
+            for (int i = 0; i < 15; i++) {
+    addObject(new Smoke(), -100, 50);
+}
+   }
+    
+    /**
+     * Prepare the world for the start of the program. That is: create the initial
+     * objects and add them to the world.
+     */
+    private void prepare()
+    {
+
+        Bush bush = new Bush();
+        addObject(bush, 117, 334);
+        Bush bush2 = new Bush();
+        addObject(bush2, 154, 309);
+        Bush bush3 = new Bush();
+        addObject(bush3, 173, 330);
+        Bush bush4 = new Bush();
+        addObject(bush4, 156, 199);
+        Bush bush5 = new Bush();
+        addObject(bush5, 193, 153);
+        Bush bush6 = new Bush();
+        addObject(bush6, 304, 60);
+        Bush bush7 = new Bush();
+        addObject(bush7, 303, 103);
+        Bush bush8 = new Bush();
+        addObject(bush8, 333, 84);
+        Bush bush9 = new Bush();
+        addObject(bush9, 547, 82);
+        Bush bush10 = new Bush();
+        addObject(bush10, 556, 118);
+        Bush bush11 = new Bush();
+        addObject(bush11, 571, 101);
+        Bush bush12 = new Bush();
+        addObject(bush12, 182, 702);
+        Bush bush13 = new Bush();
+        addObject(bush13, 152, 685);
+        Bush bush14 = new Bush();
+        addObject(bush14, 189, 671);
+        Bush bush15 = new Bush();
+        addObject(bush15, 287, 605);
+        Bush bush16 = new Bush();
+        addObject(bush16, 315, 570);
+        Bush bush17 = new Bush();
+        addObject(bush17, 326, 589);
+        Bush bush18 = new Bush();
+        addObject(bush18, 742, 718);
+        Bush bush19 = new Bush();
+        addObject(bush19, 718, 717);
+        Bush bush20 = new Bush();
+        addObject(bush20, 577, 689);
+        Bush bush21 = new Bush();
+        addObject(bush21, 553, 667);
+        Bush bush22 = new Bush();
+        addObject(bush22, 431, 558);
+        Bush bush23 = new Bush();
+        addObject(bush23, 256, 470);
+        Bush bush24 = new Bush();
+        addObject(bush24, 145, 417);
+        Bush bush25 = new Bush();
+        addObject(bush25, 340, 340);
+        Bush bush26 = new Bush();
+        addObject(bush26, 416, 306);
+        Bush bush27 = new Bush();
+        addObject(bush27, 409, 335);
+        Bush bush28 = new Bush();
+        addObject(bush28, 291, 247);
+        Bush bush29 = new Bush();
+        addObject(bush29, 325, 198);
+        Bush bush30 = new Bush();
+        addObject(bush30, 547, 229);
+        Bush bush31 = new Bush();
+        addObject(bush31, 545, 278);
+        Bush bush32 = new Bush();
+        addObject(bush32, 599, 243);
+        Bush bush33 = new Bush();
+        addObject(bush33, 642, 526);
+        Bush bush34 = new Bush();
+        addObject(bush34, 535, 574);
+        Bush bush35 = new Bush();
+        addObject(bush35, 553, 611);
+        Bush bush36 = new Bush();
+        addObject(bush36, 575, 582);
+        Bush bush37 = new Bush();
+        addObject(bush37, 423, 672);
+        Bush bush38 = new Bush();
+        addObject(bush38, 420, 658);
+        Bush bush39 = new Bush();
+        addObject(bush39, 471, 643);
+        Bush bush40 = new Bush();
+        addObject(bush40, 688, 282);
+        Bush bush41 = new Bush();
+        addObject(bush41, 690, 242);
+        Bush bush42 = new Bush();
+        addObject(bush42, 727, 259);
+        Bush bush43 = new Bush();
+        addObject(bush43, 688, 88);
+        Bush bush44 = new Bush();
+        addObject(bush44, 710, 35);
+        Bush bush45 = new Bush();
+        addObject(bush45, 712, 71);
+        Ninja ninja = new Ninja();
+        addObject(ninja, 261, 397);
+    }
+}
