@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=up1\ up2\ up3
+comment1.target=void\ moveUp(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment2.params=down1\ down2\ down3
+comment2.target=void\ moveDown(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment3.params=left1\ left2\ left3
+comment3.target=void\ moveLeft(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment4.params=right1\ right2\ right3
+comment4.target=void\ moveRight(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+numComments=5

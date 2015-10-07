@@ -32,11 +32,11 @@ public class Kyobashi extends World
      */
     private void prepare()
     {
-        BlueMinion blueminion = new BlueMinion();
-        addObject(blueminion, 623, 99);
-        RedMinion redminion = new RedMinion();
-        addObject(redminion, 619, 347);
-        BlackMinion blackminion = new BlackMinion();
-        addObject(blackminion, 614, 611);
+        BlueRM blueRM = new BlueRM();
+        addObject(blueRM, 623, 99);
+        RedRM redRM = new RedRM();
+        addObject(redRM, 619, 347);
+        BlackRM blackRM = new BlackRM();
+        addObject(blackRM, 614, 611);
     }
 }

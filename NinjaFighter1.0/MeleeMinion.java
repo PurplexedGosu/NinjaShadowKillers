@@ -1,12 +1,12 @@
 import greenfoot.*;
 
 /**
- * Write a description of class HealthGlobe here.
+ * Write a description of class MeleeMinions here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class HealthGlobe extends Items
+public class MeleeMinion extends NPCS
 {
     public void act() 
     {

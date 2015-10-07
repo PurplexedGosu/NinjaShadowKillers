@@ -1,6 +1,4 @@
-import greenfoot.*;
-import java.lang.Math;
-
+import greenfoot.*; 
 
 /**
  * Write a description of class Shuriken here.
@@ -10,14 +8,8 @@ import java.lang.Math;
  */
 public class Shuriken extends Projectiles
 {
-    /**
-     * Act - do whatever the Shuriken wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    
     public void act() 
     {
          move(3);
     }    
-    
 }

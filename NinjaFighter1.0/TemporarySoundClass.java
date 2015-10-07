@@ -6,16 +6,15 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
+
+// This class was made to experiment with time
 public class TemporarySoundClass extends Actor
 {
     private Counter counter;
     private double virtualTime = 0;
     private boolean isThemeSong = false;
     private boolean isThemeSong2 = false;
-    /**
-     * Act - do whatever the TemporarySoundClass wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    
     public void act() 
     {
         virtualTime+= 0.01602;

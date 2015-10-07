@@ -1,13 +1,16 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Heroes()
-comment1.params=speedMultiplier
-comment1.target=void\ move(int)
-comment2.params=
-comment2.target=boolean\ useF()
-comment2.text=\n\ \ \ \ public\ boolean\ minionCollision()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ Actor\ minion;\n\ \ \ \ \ \ \ \ minion\ \=\ getOneObjectAtOffset(0,0,Minion.class);\n\ \ \ \ \ \ \ \ if\ (minion\ \!\=\ \n\ \ \ \ }\n
-comment3.params=
-comment3.target=boolean\ useSpacebar()
+comment0.params=speedMultiplier\ up1\ up2
+comment0.target=void\ moveUp(int,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment1.params=speedMultiplier\ down1\ down2
+comment1.target=void\ moveDown(int,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment2.params=speedMultiplier\ left1\ left2
+comment2.target=void\ moveLeft(int,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment3.params=speedMultiplier\ right1\ right2
+comment3.target=void\ moveRight(int,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
 comment4.params=
-comment4.target=void\ act()
-numComments=5
+comment4.target=boolean\ useF()
+comment5.params=
+comment5.target=boolean\ useSpacebar()
+comment6.params=
+comment6.target=void\ act()
+numComments=7
