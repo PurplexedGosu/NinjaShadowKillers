@@ -8,8 +8,6 @@ import greenfoot.*;
 
 public class Ninja extends Heroes
 {
-    
-    
     public Ninja()
     {
         //super(new Counter counter1);
@@ -40,6 +38,5 @@ public class Ninja extends Heroes
             getWorld().addObject(s1, getX(), getY());
             s1.setRotation(getRotation() -90);
         }
-       
     }
 }

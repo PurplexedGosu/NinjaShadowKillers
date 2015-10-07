@@ -22,7 +22,8 @@ public class Kyobashi extends World
         Ninja n1;
         n1 = new Ninja();
         addObject(n1, 100,400);
-
+        
+        
     }
 
     /**
